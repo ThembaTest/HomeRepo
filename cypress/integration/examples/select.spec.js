@@ -21,7 +21,7 @@ describe('Select Box', () =>{
         click().type('{rightArrow}').type('{rightArrow}')
         
         //comment
-        cy.get('#comments').type('Enjoyed this')
+        cy.get('#comments').type('Enjoyed this learning')
        
         //Submit
         //cy.get('#submit-button').click()
