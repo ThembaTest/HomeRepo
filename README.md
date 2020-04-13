@@ -21,10 +21,12 @@ Utility : To check the status of files you’ve changed in your working director
 How to : git status in your working directory. lists out all the files that have been changed.
 
 5) git add
+
 Utility : adds changes to stage/index in your working directory.
 How to : git add .
 
 6) git commit
+
 Utility : commits your changes and sets it to new commit object for your remote.
 How to : git commit -m”sweet little commit message”
 
