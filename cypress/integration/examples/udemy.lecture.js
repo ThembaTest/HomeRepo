@@ -22,9 +22,13 @@ describe('Browser Actions', () => {
     })
 
     it('should select Olio book', () => {
-        cy.get('a').contains('Olio').click()
-       
+        cy.visit('http://books.toscrape.com/index.html', { timeout: 100000})
+        cy.get('h1').then(($book) => {
+        const txt = $book.text()
+        cy.log(txt)
+        })
     })
+    
     it('should have correct price', () => {
         cy.wait(5000)
         cy.get('p.price_color').contains('23.88')

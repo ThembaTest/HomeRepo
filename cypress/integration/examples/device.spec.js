@@ -22,7 +22,6 @@ describe('Device Tests', ()=> {
         cy.visit('http://www.example.com')
         cy.wait(3000)
     })
-
     it('Macbook 15', ()=> {
         cy.viewport('macbook-15')
         cy.visit('http://www.example.com')
