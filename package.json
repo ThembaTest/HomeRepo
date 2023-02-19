@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^7.1.1",
+    "mocha": "^10.2.0",
     "prettier": "^2.0.2"
   },
   "devDependencies": {
